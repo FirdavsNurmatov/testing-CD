@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "start": "node server.js",
-    "prod": "pm2 restart javohir"
+    "start": "node index.js",
+    "prod": "npx pm2 restart server"
   },
   "keywords": [],
   "author": "",

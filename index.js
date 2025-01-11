@@ -1,7 +1,6 @@
 import express from "express";
 
 const app = express();
-app.use(express.json())
 
 app.use('/test', (req, res) => {
   res.send("test 1 completed")
